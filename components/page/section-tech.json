@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "name": "sectionTech",
+    "icon": "fighter-jet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tecIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tecnologi",
+      "max": 10,
+      "min": 5
+    }
+  }
+}
